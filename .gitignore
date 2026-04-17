@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sample data (large files — not needed in repo)
+pdb/*.pdb
+
+# Generated / temporary outputs
+export.csv
+*.zip
+
+# Streamlit
+.streamlit/secrets.toml
